@@ -1,0 +1,150 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "medialib",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"jsonFile" : "directory-medialib-Debug-a928251b1961e8cbba4d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "MediaLib",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "medialib/fflib",
+					"jsonFile" : "directory-medialib.fflib-Debug-dabf41c0e6db9e5b8ad2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "MediaLib/Codec/libffmpeg",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "medialib/ksimage",
+					"jsonFile" : "directory-medialib.ksimage-Debug-d154cb9d431a1c06aa6b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "MediaLib/Codec/KSImage",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "FFmpeg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "FFmpeg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FFmpeg-Debug-a0a9ec1cc3f7c3d1283b.json",
+					"name" : "FFmpeg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "fflib::@ce32f7cba338ac713a9c",
+					"jsonFile" : "target-fflib-Debug-563f9e617cab4f88bcc4.json",
+					"name" : "fflib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ffutils::@ce32f7cba338ac713a9c",
+					"jsonFile" : "target-ffutils-Debug-0500be997466a7650800.json",
+					"name" : "ffutils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ksimage::@fc8093626ae65f9cef90",
+					"jsonFile" : "target-ksimage-Debug-398346dd1e0f7b3551ca.json",
+					"name" : "ksimage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "medialib::@4e51f8bcb60aefe9331c",
+					"jsonFile" : "target-medialib-Debug-cdd3c7869819913393a8.json",
+					"name" : "medialib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/shivaaz/Projects/FFmpeg/cmake-build-debug",
+		"source" : "/Users/shivaaz/Projects/FFmpeg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

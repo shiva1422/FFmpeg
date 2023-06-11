@@ -1,0 +1,170 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "medialib/fflib/libfflib.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"MediaLib/Codec/libffmpeg/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++17 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/Users/shivaaz/Projects/FFmpeg/./Core"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/shivaaz/Projects/FFmpeg/./MediaLib"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/shivaaz/Projects/FFmpeg/./MediaLib/Codec"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/opt/homebrew/Cellar/glfw/3.3.8/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/shivaaz/Projects/FFmpeg/glloader/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/shivaaz/projects/kalasoft/external/ffsrc/FFmpeg/build/mac/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "ffutils::@ce32f7cba338ac713a9c"
+		}
+	],
+	"id" : "fflib::@ce32f7cba338ac713a9c",
+	"name" : "fflib",
+	"nameOnDisk" : "libfflib.a",
+	"paths" : 
+	{
+		"build" : "medialib/fflib",
+		"source" : "MediaLib/Codec/libffmpeg"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "MediaLib/Codec/libffmpeg/Codec/FFMpegDecoder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "MediaLib/Codec/libffmpeg/Codec/FFMpegAudioDecoder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "MediaLib/Codec/libffmpeg/Codec/FFMpegVideoDecoder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "MediaLib/Codec/libffmpeg/Codec/KSCodec.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

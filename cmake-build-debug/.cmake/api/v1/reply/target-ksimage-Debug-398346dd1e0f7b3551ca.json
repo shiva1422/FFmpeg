@@ -1,0 +1,142 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "medialib/ksimage/libksimage.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"MediaLib/Codec/KSImage/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++17 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/Users/shivaaz/Projects/FFmpeg/./Core"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/shivaaz/Projects/FFmpeg/./MediaLib"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/shivaaz/Projects/FFmpeg/./MediaLib/Codec"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/opt/homebrew/Cellar/glfw/3.3.8/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/shivaaz/Projects/FFmpeg/glloader/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"id" : "ksimage::@fc8093626ae65f9cef90",
+	"name" : "ksimage",
+	"nameOnDisk" : "libksimage.a",
+	"paths" : 
+	{
+		"build" : "medialib/ksimage",
+		"source" : "MediaLib/Codec/KSImage"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "MediaLib/Codec/KSImage/KSImageLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "MediaLib/Codec/KSImage/ImageCodec/STBImageLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "MediaLib/Codec/KSImage/ImageCodec/stb_image.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
